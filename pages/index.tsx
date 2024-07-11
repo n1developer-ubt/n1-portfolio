@@ -63,19 +63,19 @@ export default function Home() {
    // this useEffect will be called when userData is set
    useEffect(() => {
       // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
-      if (!IsBlackListEmpty) {
-         if (userData) {
-            // check if the user country is in the blackList
-            if (
-               process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(
-                  userData.country
-               )
-            ) {
-               // set isBlackListed to true
-               setIsBlackListed(true)
-            }
-         }
-      }
+      // if (!IsBlackListEmpty) {
+      //    if (userData) {
+      //       // check if the user country is in the blackList
+      //       if (
+      //          process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES.includes(
+      //             userData.country
+      //          )
+      //       ) {
+      //          // set isBlackListed to true
+      //          setIsBlackListed(true)
+      //       }
+      //    }
+      // }
    }, [IsBlackListEmpty, userData])
 
    useEffect(() => {
