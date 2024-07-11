@@ -3,8 +3,25 @@ import Img from "../../../components/smallComp/image/Img"
 import ArrowIcon from "../../../components/Icons/ArrowIcon"
 export default function AboutMe(props) {
    const technologies = [
-      ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-      ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+      [
+         "C#",
+         "ASP.NET Core",
+         "WPF",
+         "JavaScript",
+         "TypeScript",
+         "NodeJS",
+         "ExpressJS",
+      ],
+      [
+         "NextJS",
+         "ReactJS",
+         "ElectronJS",
+         "Tailwind CSS",
+         "React Native",
+         "Python",
+         "Django",
+      ],
+      ["Java", "MySQL", "MSSQL", "Firestore", "AWS", "GCP", "Github CI/CD"],
    ]
    return (
       <div
@@ -37,36 +54,25 @@ export default function AboutMe(props) {
             <div className='w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 '>
                <div className='w-full md:w-7/12 space-y-4 sm:text-base text-sm '>
                   <div className='font-Header '>
-                     <span className='text-gray-400 '>
-                        Hello! My name is Usama, and I am a passionate software
-                        engineer and problem solver, dedicated to creating
-                        impactful codes that thrive on the internet. My journey
-                        in computer science began in 2009 when I delved into the
-                        world of Ethical Hacking using BackTrack OS. Little did
-                        I know that programming skills would become essential in
-                        pursuing this interest, marking the start of my
-                        programming journey.
+                     <span
+                        className='text-gray-400'
+                        style={{
+                           textAlignLast: "justify",
+                        }}>
+                        My name is Usama, and I am an experienced full stack
+                        developer with over 6 years of professional experience.
+                        Throughout my career, I have worked on a wide range of
+                        projects, including Web, iOS, Android, Windows, Linux,
+                        and macOS applications. I also have extensive expertise
+                        in implementing AI and Machine Learning solutions.
+                        Having successfully delivered over 300+ projects on
+                        Fiverr, I have developed skills in creating Management
+                        Systems, POS, Chat Applications, Admin Portals, and much
+                        more. Coding is not just my profession; it is my true
+                        passion.
                      </span>
                   </div>
-                  <div className='font-Header '>
-                     <span className='text-gray-400 '>
-                        Since pursuing my engineering degree, my career has
-                        taken me through diverse industries, allowing me to
-                        refine my expertise in desktop and web development. In
-                        the realm of{" "}
-                        <span className='text-AAsecondary'>web3</span>, I am
-                        dedicated to pushing boundaries and driving
-                        advancements. With experience working alongside esteemed
-                        organizations like{" "}
-                        <span className='text-AAsecondary'>ENS Vision</span>,
-                        where I played a key role in releasing v2 of{" "}
-                        <span className='text-AAsecondary'>
-                           ENS Vision Marketplace
-                        </span>{" "}
-                        , my passion for web3 and continuous learning drives me
-                        to make a positive impact and advance technology.
-                     </span>
-                  </div>
+
                   {/* <div className="font-Header tracking-wide">
               <span className="text-gray-400  ">
                 Fast-forward to today, I&apos;ve had the privilege of working at
@@ -83,7 +89,7 @@ export default function AboutMe(props) {
                   <div className='font-Header tracking-wide'>
                      <span className='text-gray-400  '>
                         Here are a few technologies I&apos;ve been working with
-                        recently :
+                        recently:
                      </span>
                   </div>
                   <div className='font-Header tracking-wide flex flex-row space-x-16'>
@@ -108,6 +114,24 @@ export default function AboutMe(props) {
                      <div className='flex flex-row space-x-2 items-center'>
                         <div className='flex flex-col space-y-4 sm:text-base text-sm'>
                            {technologies[1].map((tech, index) => {
+                              return (
+                                 <div
+                                    key={index}
+                                    className='flex flex-row items-center space-x-2'>
+                                    <ArrowIcon
+                                       className={"h-3 w-3 text-AAsecondary"}
+                                    />
+                                    <span className='text-gray-400 sm:text-sm text-xs'>
+                                       {tech}
+                                    </span>
+                                 </div>
+                              )
+                           })}
+                        </div>
+                     </div>
+                     <div className='flex flex-row space-x-2 items-center'>
+                        <div className='flex flex-col space-y-4 sm:text-base text-sm'>
+                           {technologies[2].map((tech, index) => {
                               return (
                                  <div
                                     key={index}

@@ -65,17 +65,21 @@ export default function MyName(props: { finishedLoading: boolean }) {
             }}
             className='text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider'>
             I&apos;m a{" "}
-            <span className='text-AAsecondary'>software engineer</span>, i
-            possess strong problem-solving skills and specialize in crafting
-            exceptional <br className='2xl:block hidden' />
-            digital experiences. My current area of focus is in the{" "}
-            <span className='text-AAsecondary'>web3 domain</span>, where I
-            actively engage in developing <br className='2xl:block hidden' />
-            and designing immersive{" "}
-            <span className='text-AAsecondary'>web3 applications</span>. This
-            involves working with{" "}
-            <span className='text-AAsecondary'>Smart Contracts</span> on the{" "}
-            <span className='text-AAsecondary'>Blockchain</span>.
+            <span className='text-AAsecondary'>software engineer</span>, with a
+            keen ability to solve complex problems and create exceptional{" "}
+            <br className='2xl:block hidden' />
+            digital experiences. My expertise lies in developing robust web
+            applications using{" "}
+            <span className='text-AAsecondary'>ASP.NET Core</span>,{" "}
+            <span className='text-AAsecondary'>Node.js</span>, and{" "}
+            <span className='text-AAsecondary'>ReactJS</span>. I specialize in
+            building dynamic and responsive{" "}
+            <span className='text-AAsecondary'>applications</span>, ensuring
+            seamless user experiences. <br className='2xl:block hidden' /> My
+            current focus is on leveraging these technologies to develop
+            scalable and efficient{" "}
+            <span className='text-AAsecondary'>web solutions</span> that meet
+            modern business needs.
             {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
          </motion.h3>

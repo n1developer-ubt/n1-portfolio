@@ -4,6 +4,7 @@ import GithubIcon from "../../Icons/GithubIcon"
 import LinkedinIcon from "../../Icons/LinkedinIcon"
 import InstagramIcon from "../../Icons/InstagramIcon"
 import YoutubeIcon from "../../Icons/YoutubeIcon"
+import FiverrIcon from "../../Icons/FiverrIcon"
 
 const IconClickableWithAnimation = (props) => {
    return (
@@ -36,20 +37,23 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
                   {/* Github Icon */}
                   <IconClickableWithAnimation
                      Icon={GithubIcon}
-                     href={"https://github.com/hktitof"}
+                     href={"https://github.com/n1developer-ubt"}
                   />
                   {/* Linkedin icon */}
                   <IconClickableWithAnimation
                      Icon={LinkedinIcon}
-                     href={"https://www.linkedin.com/in/abdellatif-anaflous/"}
+                     href={"https://www.linkedin.com/in/usama-bin--tariq/"}
                   />
                   {/* Instagram Icon */}
-                  {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
-                  {/* Youtube Icon */}
                   <IconClickableWithAnimation
-                     Icon={YoutubeIcon}
-                     href={"https://www.youtube.com/@abdellatif_anaflous"}
+                     Icon={FiverrIcon}
+                     href={"https://www.fiverr.com/n1developer"}
                   />
+                  {/* Youtube Icon */}
+                  {/* <IconClickableWithAnimation
+                     Icon={YoutubeIcon}
+                     href={"https://youtube.com/n1developers"}
+                  /> */}
                </div>
                <div className='h-28 w-0.5 bg-gray-400'></div>
             </div>
