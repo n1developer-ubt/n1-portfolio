@@ -26,6 +26,16 @@ export const projectsData = [
    },
 
    {
+      title: "Evergo Packaging",
+      description:
+         "Evergo Packaging provides custom eco-friendly packaging solutions through a user-friendly platform. Users can request quotes and place orders for various packaging types, while admins manage users, orders, and quotes. The project includes a comprehensive dashboard developed to ensure a seamless user experience and efficient management. ",
+      subDescrption: "Landing Pages | User & Admin Dashboard",
+      keywords: ["quotes", "orders", "admin", "user experience"],
+      techStack: ["React.JS", "Firestore", "Serverless", "GCP"],
+      link: "https://evergopackaging.com/",
+      img: "evergo.png",
+   },
+   {
       title: "Truck Safety Team ERP",
       description:
          "The TRUCK SAFETY TEAM Dashboard keeps trucking companies safe and efficient. This web platform brings driver, vehicle, trailer, and job posting management together. Track drivers, assign them to vehicles, and monitor performance. Plus, view vehicle details, schedules, and inspections. It simplifies tasks, improves safety, optimizes resources, and helps make data-driven decisions.",
@@ -38,15 +48,6 @@ export const projectsData = [
       ],
       techStack: ["React.JS", "ASP.NET Core", "MySQL", "Serverless", "GCP"],
       img: "trucksafety.png",
-   },
-   {
-      title: "Evergo Packaging",
-      description:
-         "Evergo Packaging provides custom eco-friendly packaging solutions through a user-friendly platform. Users can request quotes and place orders for various packaging types, while admins manage users, orders, and quotes. The project includes a comprehensive dashboard developed to ensure a seamless user experience and efficient management. ",
-      subDescrption: "Landing Pages | User & Admin Dashboard",
-      keywords: ["quotes", "orders", "admin", "user experience"],
-      techStack: ["React.JS", "Firestore", "Serverless", "GCP"],
-      img: "evergo.png",
    },
    {
       title: "STUZANNE ERP",

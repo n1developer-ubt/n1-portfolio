@@ -24,7 +24,7 @@ export default function Project({
    keywords,
 }: ProjectProps) {
    const router = useRouter()
-   return (
+   const project = (
       <>
          <div
             data-aos='fade-up'
@@ -106,4 +106,14 @@ export default function Project({
          </div>
       </>
    )
+
+   if (link) {
+      return (
+         <a target='_blank' rel='noreferrer' href={link}>
+            {project}
+         </a>
+      )
+   }
+
+   return project
 }
