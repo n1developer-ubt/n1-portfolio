@@ -107,13 +107,5 @@ export default function Project({
       </>
    )
 
-   if (link) {
-      return (
-         <a target='_blank' rel='noreferrer' href={link}>
-            {project}
-         </a>
-      )
-   }
-
    return project
 }
